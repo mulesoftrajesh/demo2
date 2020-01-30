@@ -54,7 +54,7 @@
 
          <muleVersion>4.2.2</muleVersion>
 
-         <applicationName>demo2</applicationName>
+         <applicationName>demo2-req</applicationName>
 
       </cloudHubDeployment>
 
