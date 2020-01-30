@@ -51,14 +51,24 @@
          <workerType>Micro</workerType>
 
          <environment>Sandbox</environment>
+         
 
          <muleVersion>4.2.2</muleVersion>
-
+<uri>https://anypoint.mulesoft.com</uri>
          <applicationName>demo2-req</applicationName>
 
       </cloudHubDeployment>
 
    </configuration>
+   <executions>
+   	<execution>
+   		<id>deploy</id>
+   		<phase>deploy</phase>
+   		<goals>
+   			<goal>deploy</goal>
+   		</goals>
+   	</execution>
+   </executions>
 
 </plugin>
 		</plugins>
