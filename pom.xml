@@ -28,6 +28,39 @@
 				<configuration>
 				</configuration>
 			</plugin>
+			<plugin>
+
+   <groupId>org.mule.tools.maven</groupId>
+
+   <artifactId>mule-maven-plugin</artifactId>
+
+   <version>3.3.5</version>
+
+   <extensions>true</extensions>
+
+   <configuration>
+
+      <cloudHubDeployment>
+
+         <username>rajesh082020</username>
+
+         <password>RAJ22sir</password>         
+
+         <workers>1</workers>
+
+         <workerType>Micro</workerType>
+
+         <environment>Sandbox</environment>
+
+         <muleVersion>4.2.2</muleVersion>
+
+         <applicationName>demo2</applicationName>
+
+      </cloudHubDeployment>
+
+   </configuration>
+
+</plugin>
 		</plugins>
 	</build>
 
